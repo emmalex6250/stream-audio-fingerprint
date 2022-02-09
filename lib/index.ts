@@ -85,7 +85,7 @@ let DO_PLOT = false; // limit the amount of audio processing to ~12s, generate p
 
 if (DO_PLOT) {
 	var fs = require('fs');
-	var png = require('node-png').PNG;
+	var png = require('pngjs').PNG;
 }
 
 const colormap = (x: number, buffer: any[], index: number, color: string) => {
